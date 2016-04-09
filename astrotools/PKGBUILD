@@ -1,7 +1,7 @@
 # Maintainer:   AstroFloyd  < AstroFloyd [at] gmail [dt] com >
 pkgname=astrotools
-pkgver=0.0.1
-pkgrel=2
+pkgver=0.0.3
+pkgrel=1
 pkgdesc="Command-line tools for astronomy and astrophysics"
 arch=('i686' 'x86_64')
 url="http://astrotools.sourceforge.net/"
@@ -10,7 +10,7 @@ depends=('libsufr' 'libthesky')
 makedepends=('cmake' 'gcc-fortran')
 changelog=ChangeLog
 source=("http://sourceforge.net/projects/$pkgname/files/$pkgname-$pkgver.tar.gz")
-sha512sums=('150903efa945ea68baf4f62419d5d2e21dcc2db9f675267482717daa99b9485dfc65f3d9e3dadb6965abc903bbe2cc7099f1c6c51d5974e623dad0b1419eaa47')
+sha512sums=('7c1f1aa62b038e69bb2699a8808ca08675bc8e4bcfb0bdea93dff1a4954b82665a8f30ac90c0c971b1cb25fd78a4b6a75854f16c2ee937d408042c860f80cc63')
 
 build() {
 	mkdir -p "$pkgname-$pkgver"/build
